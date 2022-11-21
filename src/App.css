@@ -1,0 +1,117 @@
+body {
+  background-color: #fafafa;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+.DraftEditor-editorContainer {
+  height: 500px !important;
+  border: 1px solid #c4c4c4 !important;
+  padding: 10px;
+}
+.EditorLabel {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+  height: 100px !important;
+  max-height: 100px !important;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-row{
+  height: 100px !important;
+  max-height: 100px !important;
+}
+.carousel-caption{
+  bottom: 25% !important;
+  text-align: left !important;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.overlay1 {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.container {
+  width: 1200px !important;
+}
+.Jumbotron {
+  height: 350px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/reactfireauth-461a3.appspot.com/o/gallery%2FBlue%20Brown%20Simple%20Business%20Blog%20Banner.jpg17758240-73c2-49e9-9f04-8d3996c83e1c?alt=media&token=246f704d-1280-4db1-9765-df770cc0349e");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fff;
+  background-position: center;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+h2 {
+  font-size: 32px !important;
+  font-weight: 500 !important;
+}
+h3 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+p {
+  font-size: 14px !important;
+}
+a {
+  text-decoration: none !important; /* no underline */
+}
+@media only screen and (max-width: 600px) {
+  .nav a{
+    display: none !important;
+  }
+}
